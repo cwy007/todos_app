@@ -11,3 +11,10 @@
 ![代码结构](https://tva1.sinaimg.cn/large/007S8ZIlly1ggmqjjot3uj30u01li7wh.jpg)
 
 ## UI
+
+## commands
+
+```bash
+npm ls "prop-types"
+
+```
