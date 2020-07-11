@@ -18,6 +18,7 @@ const getVisibleTodos = (todos, filter) => {
 }
 
 // mapStateToProps
+// 页面上的数据通过这个函数获取
 const mapStateToProps = state => ({
   // 这是两个 reducers
   // state.todos, state.visibilityFilter
