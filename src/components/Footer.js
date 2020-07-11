@@ -12,7 +12,7 @@ const Footer = () => (
     <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>
       激活
     </FilterLink>
-    <FilterLink filter={VisibilityFilters.SHO_COMPLETED}>
+    <FilterLink filter={VisibilityFilters.SHOW_COMPLETED}>
       禁用
     </FilterLink>
   </div>
