@@ -19,7 +19,9 @@ const getVisibleTodos = (todos, filter) => {
 
 // mapStateToProps
 const mapStateToProps = state => ({
-  todos: getVisibleTodos(state.todos, state.VisibilityFilters)
+  // 这是两个 reducers
+  // state.todos, state.visibilityFilter
+  todos: getVisibleTodos(state.todos, state.visibilityFilter)
 });
 
 // mapDispatchToProps
